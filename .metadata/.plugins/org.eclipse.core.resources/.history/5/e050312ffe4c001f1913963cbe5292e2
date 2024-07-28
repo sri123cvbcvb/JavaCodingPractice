@@ -1,4 +1,4 @@
-/*package geekForgeeksProblems;
+package geekForgeeksProblems;
 
 public class RotateArrayByGiveNum {
 	static void sol(int[] arr, int num) {
@@ -24,4 +24,3 @@ public class RotateArrayByGiveNum {
 	}
 
 }
-*/

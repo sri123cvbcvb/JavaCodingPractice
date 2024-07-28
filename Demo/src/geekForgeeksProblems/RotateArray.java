@@ -1,6 +1,6 @@
-/*package geekForgeeksProblems;
+package geekForgeeksProblems;
 
-public class RotateArrayByGiveNum {
+public class RotateArray {
 	static void sol(int[] arr, int num) {
 		int length = arr.length;
 		int start = 0;
@@ -24,4 +24,3 @@ public class RotateArrayByGiveNum {
 	}
 
 }
-*/
