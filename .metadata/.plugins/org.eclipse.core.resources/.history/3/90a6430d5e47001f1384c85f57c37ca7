@@ -1,0 +1,16 @@
+package bubbleSort;
+
+import java.util.Arrays;
+
+public class BubbleSort {
+   static void bubble_sort(int[] arr){
+	   
+   }
+	public static void main(String[] args) {
+		int[] arr = { 1, 5, 3, 2, 4 };
+		bubble_sort(arr);
+		System.out.println(Arrays.toString(arr));
+
+	}
+
+}

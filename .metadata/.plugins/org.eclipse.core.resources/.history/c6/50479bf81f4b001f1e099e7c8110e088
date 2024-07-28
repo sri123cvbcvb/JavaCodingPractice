@@ -1,0 +1,18 @@
+package geekForgeeksProblems;
+
+import java.util.List;
+
+public class ArrayLeaders {
+   static List<Integer> solution(int[] arr){
+	   
+	   
+	return null;
+	   
+   }
+	public static void main(String[] args) {
+	int[] arr= {16,17,4,3,5,2};
+	solution(arr);
+	
+	}
+
+}

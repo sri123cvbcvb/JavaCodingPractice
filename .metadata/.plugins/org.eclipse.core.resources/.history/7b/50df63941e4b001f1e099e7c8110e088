@@ -1,0 +1,19 @@
+package geekForgeeksProblems;
+
+import java.util.List;
+
+public class ArrayDupicates {
+ static List<Integer> duplicates(int[] arr){
+	 
+	return null;
+	 
+ }
+	public static void main(String[] args) {
+		int n=4;
+        int[] arr = {0,3,1,2};
+        List<Integer> r = duplicates(arr);
+        System.out.println(r);
+
+	}
+
+}

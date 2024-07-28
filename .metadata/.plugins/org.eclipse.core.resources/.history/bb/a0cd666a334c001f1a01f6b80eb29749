@@ -1,0 +1,14 @@
+package geekForgeeksProblems;
+
+public class ArraySubset {
+
+	public static void main(String[] args) {
+		int[] arr1 = {11, 7, 1, 13, 21, 3, 7, 3};
+		int[] arr2 = {11, 3, 7, 1, 7};
+		
+		
+		
+
+	}
+
+}

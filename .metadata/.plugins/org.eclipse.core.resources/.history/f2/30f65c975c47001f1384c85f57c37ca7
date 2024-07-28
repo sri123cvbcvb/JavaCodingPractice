@@ -1,0 +1,14 @@
+package bubbleSort;
+
+import java.util.Arrays;
+
+public class BubbleSort {
+
+	public static void main(String[] args) {
+		int[] arr = { 1, 5, 3, 2, 4 };
+		selection_sort(arr);
+		System.out.println(Arrays.toString(arr));
+
+	}
+
+}

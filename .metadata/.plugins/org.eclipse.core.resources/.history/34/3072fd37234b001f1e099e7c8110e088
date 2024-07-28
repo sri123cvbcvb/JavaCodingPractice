@@ -1,0 +1,31 @@
+package geekForgeeksProblems;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayLeaders {
+   static List<Integer> solution(int[] arr){
+	   List<Integer> res = new ArrayList<Integer>();
+	   res.add(arr[arr.length-1]);
+	   int currentLeader = 0;
+	   for(int i =0; i< arr.length-1; i++){
+		  // System.out.println(arr[i]);
+		   for(int j =i+1; j<arr.length-1; j++){
+			   if(arr[i] < arr[j]){
+				   if(arr[j] > currentLeader){
+					   currentLeader = arr[j];
+				   }
+			   }
+		   }
+		   res.add(currentLeader);
+	   }
+	return res;
+	   
+   }
+	public static void main(String[] args) {
+	int[] arr= {16,17,4,3,5,2};
+	List<Integer> res = solution(arr);
+	System.out.println(res);
+	}
+
+}

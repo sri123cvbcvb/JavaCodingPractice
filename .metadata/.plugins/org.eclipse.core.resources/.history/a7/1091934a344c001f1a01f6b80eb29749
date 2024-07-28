@@ -1,0 +1,19 @@
+package geekForgeeksProblems;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class ArraySubset {
+
+	public static void main(String[] args) {
+		int[] arr1 = {11, 7, 1, 13, 21, 3, 7, 3};
+		int[] arr2 = {11, 3, 7, 1, 7};
+		
+		Map<Integer, Long> a1 = Arrays.stream(arr1).boxed().collect(Collectors.groupingBy(e-> e, Collectors.counting()));
+		System.out.println(a1);
+
+	}
+
+}
