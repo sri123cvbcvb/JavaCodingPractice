@@ -1,0 +1,26 @@
+package geekForgeeksProblems;
+
+public class RotateArray {
+	static void sol(int[] arr, int num) {
+		int length = arr.length;
+		int start = 0;
+		int end = lenght -1;
+        reverse(int[] arr, start, end );
+        reverse(int[] arr, 0, num-1 );
+        reverse(int[] arr, num, length-1 );
+	}
+
+	static void reverse(Object object, int start, int end) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	public static void main(String[] args) {
+
+		int[] arr = { 1, 2, 3, 4, 5 };
+		int num = 3;
+
+		sol(arr, num);
+	}
+
+}
